@@ -1,8 +1,8 @@
 export const Card =(props)=>{
-    const {nombre,edad,aldea,rango,afiliacion, jutsu, estado}= props
+    const {imagen,nombre,edad,aldea,rango,afiliacion, jutsu, estado}= props
     return(
         <div className="cardPersonaje">
-        <img  alt="" />
+        <img src={`/img/${imagen}`} alt="" />
         <div>
         <h2>{nombre}</h2>
         <p>Edad: {edad}</p>

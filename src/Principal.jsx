@@ -8,10 +8,11 @@ export const Principal = () => {
     return (
         <main>
             <Navbar />
-            <h1>Princial</h1>
+            <h1>Mi primer aplicativo Certus</h1>
             {
                 personajes.map((personaje)=>(
                     <Card 
+                    imagen={personaje.imagen}
                     nombre={personaje.nombre}
                     edad={personaje.edad}
                     aldea={personaje.aldea}
